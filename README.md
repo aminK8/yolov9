@@ -333,3 +333,7 @@ python caption/train.py --workers 8 --device 0 --batch 32  --data coco.yaml --im
 * [https://github.com/meituan/YOLOv6](https://github.com/meituan/YOLOv6)
 
 </details>
+
+
+
+python detect.py --source '/home/ubuntu/dataset/data_pulte/pulte/floorplans/fefdde81-545b-4534-a87f-22b41183d2a9_4_.png' --img 640 --device 0 --weights '/home/ubuntu/YOLOv9-ZOO/yolov9e-seg.pt' --name output_res
